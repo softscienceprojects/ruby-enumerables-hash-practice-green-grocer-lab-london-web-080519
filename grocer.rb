@@ -1,5 +1,6 @@
 def consolidate_cart(cart)
   # makeObj = Hash[cart.collect {|v| [v] }]
+  #try to push again?
   result = {}
   cart.each do |food| #for each of the food items in the cart
     if result[food.keys[0]] #check and see if our new cart has the food already
